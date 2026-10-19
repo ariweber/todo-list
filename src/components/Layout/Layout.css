@@ -1,0 +1,16 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+.layout-panel {
+  width: 100%;
+  max-width: 38rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+}

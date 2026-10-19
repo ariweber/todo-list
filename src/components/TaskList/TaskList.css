@@ -1,0 +1,32 @@
+.task-list {
+  list-style: none;
+}
+
+.task-list li {
+  border-bottom: 1px solid white;
+  cursor: grab;
+}
+
+.task-list li:last-child {
+  border-bottom: none;
+}
+
+.task-list li.dragging {
+  opacity: 0.4;
+}
+
+.task-list li.drag-over {
+  border-top: 2px solid var(--main-color);
+}
+
+.task-list-empty {
+  text-align: center;
+  padding: 2rem;
+  color: var(--gray);
+}
+
+.task-list-empty strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--text-color);
+}
